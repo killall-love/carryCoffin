@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url "https://maven.aliyun.com/nexus/content/repositories/jcenter/" }
+        mavenCentral()
+        jcenter()
+        google()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url "https://maven.aliyun.com/nexus/content/repositories/jcenter/" }
+        mavenCentral()
+        jcenter()
+        google()
+    }
+}
+rootProject.name = "carryCoffin"
+include ':app'
